@@ -1,4 +1,4 @@
-git checkout branch_name - we can switch with existing branches
+git checkout branch_name- we can switch with existing branches
 
  -b/B(branch) new_branch_name [existing_branch] create new branch and switch to it(add existing-branch-name to create new branch from that),with -B it will create new branch if it doesnt exist,oterwise it is reset
 
