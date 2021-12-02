@@ -1,0 +1,4 @@
+The orphan branch is a branch who  haven't a parent commit, We can make commits but this branch does not share any commit history with master branch   This can be useful when We want to publish the tree from a commit without exposing its full history. We can publish an open source branch of a project whose current tree is "clean.
+To create an orphan branche we need to run git checkout --orphan branch-name
+It's worked like common branches,so we can add files and commit them,but we can't merge them as usual.
+If we want to merge files from orphan branch to main branch  we need to run this - git merge branch-name --allow-unrelated-histories, thats it.
